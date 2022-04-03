@@ -1,6 +1,7 @@
 {
 	"author": "bacell saleh",
 	"name": "fcc-learn-npm-package-json",
+	"description": "A project that does something awesome",
 	"dependencies": {
 		"express": "^4.17.3"
 	},
