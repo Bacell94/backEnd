@@ -26,6 +26,7 @@ app.get('/json', (req,res)=> {
     return res.json(msg)
     })
     
+app.get(`/:word/echo`,(req,res) => res.json({"echo" : req.params.word}))
 app.use('/public' ,express.static(__dirname + "/public"))
 // app.get('/', (req,res)=> {res.send('Hello Express')})
 
